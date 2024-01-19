@@ -15,6 +15,7 @@
 
     @include('partials.header')
 
+    @include('partials.main')
 
     @yield("content")
 
