@@ -17,7 +17,7 @@
 
     @include('partials.main')
 
-    @yield("content")
+    @yield("buy-section")
 
     @include('partials.footer')
 
