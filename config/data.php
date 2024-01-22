@@ -1,6 +1,39 @@
 <?php
 
 return [
+    "navPages" => [
+        [
+            "page" => "CHARACTERS"
+        ],
+        [
+            "page" => "COMICS"
+        ],
+        [
+            "page" => "MOVIES"
+        ],
+        [
+            "page" => "TV"
+        ],
+        [
+            "page" => "GAMES"
+        ],
+        [
+            "page" => "COLLECTIBLES"
+        ],
+        [
+            "page" => "VIDEOS"
+        ],
+        [
+            "page" => "FANS"
+        ],
+        [
+            "page" => "NEWS"
+        ],
+        [
+            "page" => "SHOP"
+        ]
+
+    ],
     "fumetti" => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
