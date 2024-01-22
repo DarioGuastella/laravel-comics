@@ -53,24 +53,3 @@
 </section>
 
 @endsection
-
-
-<style scoped>
-    .buy-text {
-        margin: 0;
-        font-size: 0.8rem;
-    }
-    
-    .buy-img {
-        height: 60px;
-        width: 100%;
-    }
-    
-    #buyRow {
-        background-color: #0282f9;
-    }
-    
-    .wideImg {
-        height: 47px;
-    }
-    </style>

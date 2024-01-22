@@ -1,21 +1,3 @@
-<style>
-    nav a {
-        text-decoration: none;
-        color: #555;
-        font-weight: 600;
-    }
-
-    .header-logo {
-        width: 165px;
-        height: 165px;
-    }
-
-    .active {
-        color: #0282f9;
-        border-bottom: 5px solid #0282f9;
-        line-height: 10;
-    }
-</style>
 
 <header class="d-flex container justify-content-between">
     <!-- Logo -->
