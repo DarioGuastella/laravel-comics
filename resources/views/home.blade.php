@@ -4,45 +4,15 @@
 <section id="buyRow">
     <div class="container d-flex justify-content-center p-5">
         <div class="d-flex align-items-center">
-            <div class="text-center">
-                <img class="buy-img" src="../assets/img/buy-comics-digital-comics.png" alt="">
+        
+            @foreach ($clients as $client)
+            <div class="text-center ps-5 pe-2">
+                <img class="buy-img" src="{{ $client["image"] }}" alt="">
+                <div class="mt-2">
+                    <h3 class="buy-text">{{ strtoupper($client["title"]) }}</h3>
+                </div>
             </div>
-            <div class="ps-5 pe-2">
-                <span class="buy-text">DIGITAL COMICS</span>
-            </div>
-
-
-            <div class="text-center">
-                <img class="buy-img" src="../assets/img/buy-comics-merchandise.png" alt="">
-            </div>
-            <div class="ps-5 pe-2">
-                <span class="buy-text">DC MERCHANDISE</span>
-            </div>
-
-
-            <div class="text-center">
-                <img class="buy-img" src="../assets/img/buy-comics-subscriptions.png" alt="">
-            </div>
-            <div class="ps-5 pe-2">
-                <span class="buy-text">SUBSCRIPTION</span>
-            </div>
-
-
-            <div class="text-center">
-                <img class="buy-img" src="../assets/img/buy-comics-shop-locator.png" alt="">
-            </div>
-            <div class="ps-5 pe-2">
-                <span class="buy-text">COMIC SHOP LOCATOR</span>
-            </div>
-
-
-            <div class="text-center">
-                <img class="wideImg" src="../assets/img/buy-dc-power-visa.svg" alt="">
-            </div>
-            <div class="ps-5 pe-2">
-                <span class="buy-text">DC POWER VISA</span>
-            </div>
-
+            @endforeach
 
         </div>
     </div>
