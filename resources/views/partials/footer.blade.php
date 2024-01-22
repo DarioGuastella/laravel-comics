@@ -1,43 +1,30 @@
 <section class="container-fluid upper-footer">
-
+{{-- ToDo: snellire codice --}}
     <div class="d-flex justify-content-around overflow-y-hidden">
         <div class="d-flex p-5">
             <ul class="footer-item">
-                <h5 class="text-white">DC COMICS</h5>
-                <li class="text-secondary"><a class="footer-link" href="#">Characters</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Comics</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Movies</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">TV</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Games</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Videos</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">News</a></li>
+                <h5 class="text-white">{{$DCCOMICS[0]["class"]}}</h5>
+                @foreach ($DCCOMICS as $DCcomic)
+                <li class="text-secondary"><a class="footer-link" href="#">{{$DCcomic["title"]}}</a></li>
+                @endforeach
                 <ul class="footer-item pe-0">
-                    <h5 class="text-white mt-2">SHOP</h5>
-                    <li class="text-secondary"><a class="footer-link" href="#">Shop DC</a></li>
-                    <li class="text-secondary"><a class="footer-link" href="#">Shop DC Collectibles</a></li>
+                    <h5 class="text-white mt-2">{{$SHOPS[0]["class"]}}</h5>
+                    @foreach ($SHOPS as $Shop)
+                    <li class="text-secondary"><a class="footer-link" href="#">{{$Shop["title"]}}</a></li>
+                    @endforeach
                 </ul>
             </ul>
             <ul class="footer-item">
-                <h5 class="text-white">DC</h5>
-                <li class="text-secondary"><a class="footer-link" href="#">Terms Of Use</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Privacy policy (New)</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Ad Choices</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Advertising</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Jobs</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Subscriptions</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Talent Workshops</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">CPSC Certificates</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Ratings</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Shop Help</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">Contact Us</a></li>
+                <h5 class="text-white">{{$DC[0]["class"]}}</h5>
+                @foreach ($DC as $DClink)
+                <li class="text-secondary"><a class="footer-link" href="#">{{$DClink["title"]}}</a></li>
+                @endforeach
             </ul>
             <ul class="footer-item">
-                <h5 class="text-white">SITES</h5>
-                <li class="text-secondary"><a class="footer-link" href="#">DC</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">MAD Magazine</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">DC Kids</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">DC Universe</a></li>
-                <li class="text-secondary"><a class="footer-link" href="#">DC Power Visa</a></li>
+                <h5 class="text-white">{{$SITES[0]["class"]}}</h5>
+                @foreach ($SITES as $site)
+                <li class="text-secondary"><a class="footer-link" href="#">{{$site["title"]}}</a></li>
+                @endforeach
             </ul>
         </div>
         <div class="footer-wrapper-img">

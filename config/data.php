@@ -166,5 +166,139 @@ return [
             "image" => "../assets/img/buy-dc-power-visa.svg"
         ]
 
+    ],
+    "DCCOMICS" => [
+        [
+            "class" => "DC COMICS",
+            "title" => "Characters",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC COMICS",
+            "title" => "Comics",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC COMICS",
+            "title" => "Movies",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC COMICS",
+            "title" => "TV",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC COMICS",
+            "title" => "Games",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC COMICS",
+            "title" => "Videos",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC COMICS",
+            "title" => "News",
+            "link" => "#"
+        ]
+    ],
+    "SHOPS" => [
+        [
+            "class" => "SHOP",
+            "title" => "Shop DC",
+            "link" => "#"
+        ],
+        [
+            "class" => "SHOP",
+            "title" => "Shop DC Collectibles",
+            "link" => "#"
+        ],
+    ],
+    "DC" => [
+        [
+            "class" => "DC",
+            "title" => "Terms Of Use",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Privacy policy (New)",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Ad Choices",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Advertising",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Jobs",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Subscriptions",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Talent Workshops",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "CPSC Certificates",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Ratings",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Shop Help",
+            "link" => "#"
+        ],
+        [
+            "class" => "DC",
+            "title" => "Contact Us",
+            "link" => "#"
+        ]
+    ],
+    "SITES" => [
+        [
+            "class" => "SITES",
+            "title" => "DC",
+            "link" => "#"
+        ],
+        [
+            "class" => "SITES",
+            "title" => "MAD Magazine",
+            "link" => "#"
+        ],
+        [
+            "class" => "SITES",
+            "title" => "DC Kids",
+            "link" => "#"
+        ],
+        [
+            "class" => "SITES",
+            "title" => "DC Universe",
+            "link" => "#"
+        ],
+        [
+            "class" => "SITES",
+            "title" => "DC Power Visa",
+            "link" => "#"
+        ]
     ]
+
 ];
